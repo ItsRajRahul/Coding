@@ -20,6 +20,8 @@ form.addEventListener('submit', (e) => {
         <p>Repositories: ${data.public_repos}</p>
         <p>Followers: ${data.followers}</p>
         <p>Following: ${data.following}</p>
+        <p>Bio: ${data.bio}</p>
+        <p>Email: ${data.email}</p>
       `;
     })
     .catch((error) => {
